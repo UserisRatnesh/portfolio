@@ -1,0 +1,19 @@
+.body{
+    background-color: #FFD0D0;
+}
+
+.navigation-bar{
+    background-color: #E1ACAC;
+}
+
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding-top: 20px;
+}
+
+.profile-img{
+    border-radius: 50%;
+    border: 5px solid #A87676;
+}
