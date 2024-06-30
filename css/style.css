@@ -6,11 +6,13 @@
     background-color: #E1ACAC;
 }
 
+
 .home{
     display: grid;
     justify-content: space-evenly;
     row-gap: 30px;
     padding-top: 30px;
+    height: auto;
 }
 
 .home h1{
@@ -18,7 +20,7 @@
     font-size: 50px;
 }
 
-.profile-img{
+.home .profile-img{
     border-radius: 50%;
     border: 5px solid #A87676;
 }  
@@ -27,7 +29,40 @@
     text-align: center;
 }
 
+span{
+    text-decoration: underline #A87676;
+}
+
 .home-content p{
     padding-left: 25%;
     padding-right: 25%;
 }
+
+.break-line{
+    color: #A87676;
+    border: dotted #A87676 10px;
+    border-bottom: none;
+    width: 8%;
+    margin: 50px auto;
+}
+
+.artwork-bg{
+    border : solid 5px #A87676;
+    border-radius: 5rem;
+}
+
+.album{
+    border: solid 5px #E1ACAC;
+    border-radius: 10px;
+}
+
+.btn-bg{
+    border: solid 2px #A87676
+}
+
+.btn-bg:hover{
+    background-color: #E1ACAC;
+}
+
+
+

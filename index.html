@@ -33,7 +33,17 @@
               <a class="nav-link" href="#">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Contact me</a>
+              <a class="nav-link" href="#">Contact Me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Social
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://github.com/UserisRatnesh">GitHub</a></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/ratnesh-singh-a46277157/">LinkedIn</a></li>
+                <li><a class="dropdown-item" href="https://leetcode.com/u/Nector22/">LeetCode</a></li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -41,10 +51,10 @@
     </nav>
   </header>
   <main class="main">
-    <section class="home">
+    <section id="home" class="home ">
       <div class="home-content">
         <h1>I'm Ratnesh</h1>
-        <p>A Web Developer!</p>
+        <p>A <span>Pro</span>grammer</p>
       </div>
       <div class="home-content">
         <img src="./images/chevron-double-down.svg" alt="chevron-double-down" height="30px" />
@@ -53,33 +63,124 @@
         <img class="profile-img" src="./images/profile-img.jpeg" alt="profile-image" />
       </div>
       <div class="home-content">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi culpa vero hic eos, provident impedit. Sequi eius nam ipsa obcaecati dolore, excepturi soluta odio minus quis vel neque assumenda voluptatum!</p>
-
+        <img class="" src="./images/code-slash.svg" alt="code-slash" height="30px" />
+        <p>I am Ratnesh Singh, currently pursuing my B.Tech(2021-25) in Electronics and Communication Engineering(ECE) from NITP(National Institute of Technology Patna). <img src="./images/code-slash.svg" alt="code-slash" height="30px" /></p>
       </div>
 
     </section>
-    <section class="about">
+
+    <hr class="break-line">
+    <section id="projects" class="container">
+      <section class="pb-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto artwork-bg">
+            <h1 class="fw-light">Artworks</h1>
+            <p class="lead text-body-secondary">Projects showcasing my learning and implementation skills.</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="album py-5">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">This is a Simon game.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group btn-bg">
+                      <button type="button" class="btn ">search</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Html portfolio.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group btn-bg ">
+                      <button type="button" class="btn ">search</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Tindog.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group btn-bg">
+                      <button type="button" class="btn btn-text">search</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="break-line">
+    <section id="skills" class="skills">
+
+    </section>
+    <section id="get-in-touch" class="contact">
 
     </section>
 
-    <section class="projects">
 
-    </section>
-    <section class="resume">
 
-    </section>
-    <section class="blogs">
-
-    </section>
-
-    <section class="contact">
-
-    </section>
   </main>
 
-  <footer class="footer">
+  <div class="container">
+    <footer class="py-5">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#home" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link px-2 text-body-secondary">Projects</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link px-2 text-body-secondary">Skills</a></li>
+        <li class="nav-item"><a href="#get-in-touch" class="nav-link px-2 text-body-secondary">Contact Me</a></li>
+        <li class="nav-item"><a href="#home" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
 
-  </footer>
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
+        <p>© 2024 <span>Ratnesh</span></p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="https://codeforces.com/profile/singh_R">
+              <img class="bi" width="24" height="24" src="./images/code-forces.svg" alt="codeforces" />
+            </a>
+          </li>
+          <li class="ms-3"><a class="link-body-emphasis" href="https://leetcode.com/u/Nector22/">
+              <img class="bi" width="24" height="24" src="./images/leetcode.svg" alt="leetcode" /> </a>
+          </li>
+          <li class="ms-3"><a class="link-body-emphasis" href="https://github.com/UserisRatnesh?tab=repositories">
+              <img class="bi" width="24" height="24" src="./images/github.svg" alt="github" /> </a>
+          </li>
+          <li class="ms-3"><a class="link-body-emphasis" href="https://www.naukri.com/code360/profile/bf73ee17-8432-411f-bb8e-c7c2d3d0ae11">
+              <img class="bi" width="24" height="24" src="./images/Ninja.png" alt="conding-ninjas" /> </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
 
 </body>
 
